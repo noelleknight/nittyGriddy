@@ -1,0 +1,73 @@
+
+/*
+ * Please don't modify this file, use main.css instead.
+ * @author Peter Sommerhoff<peter@petersommerhoff.com>
+ */
+
+* {
+  color: #000;
+  box-sizing: border-box;
+  font-weight: bolder;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+html {
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  min-height: 100vh;
+  font-size: 40px;
+}
+
+body {
+  padding: 50px;
+}
+
+code {
+  margin: 1px 5px;
+  padding: 2px 5px 1px 5px;
+  font-family: monospace;
+  border-radius: 2px;
+  border: 1px dotted #fff;
+}
+
+p {
+  margin: 25px 10px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.outlined {
+  height: 200px;
+  border: 1px solid #fff;
+  margin-bottom: 50px;
+}
+
+.container > * {
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 2px solid #fff;
+  border-radius: 2px;
+  padding: 20px;
+  /*margin: 10px;*/
+  text-align: center;
+}
+
+.container a {
+    display: block;
+}
+
+.container > a:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  text-decoration: none;
+  transition: background-color ease 0.5s;
+}
